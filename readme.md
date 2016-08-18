@@ -12,3 +12,6 @@ Every project is contained in a single file, or a folder. And they're enumerated
 
 ## RecursiveFizzBuzz
 	A tail recursive function.
+
+## GenericBinaryTree
+	A binary tree that is generic.
