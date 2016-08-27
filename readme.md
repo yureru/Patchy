@@ -15,3 +15,6 @@ Every project is contained in a single file, or a folder. And they're enumerated
 
 ## GenericBinaryTree
 	A binary tree that is generic.
+
+## ExceptionsAsynchronousTask
+	Shows how to handle an exception that is raised in a asynchronous awaited method.
