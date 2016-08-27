@@ -8,10 +8,10 @@ class Program
     static void Main()
     {
         string str = "";
-        Console.Write(FizzBuzz(1, str));
+        Console.Write(FizzBuzz(1, str, 100));
     }
 
-    static string FizzBuzz(int num, string str)
+    static string FizzBuzz(int num, string str, int upTo)
     {
         bool flag = false;
 
@@ -31,9 +31,9 @@ class Program
         }
         str += "\n";
 
-        if (num < 100)
+        if (num < upTo)
         {
-            return FizzBuzz(num + 1, str);
+            return FizzBuzz(num + 1, str, upTo);
         }
 
         return str;
