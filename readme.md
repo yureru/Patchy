@@ -21,3 +21,6 @@ Every project is contained in a single file, or a folder. And they're enumerated
 
 ## ExceptionsAsynchronousTask <a href="https://github.com/yureru/Patchy/tree/master/source/ExceptionsAsynchronousTask"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Sheet.png"/></a> <a href="https://raw.githubusercontent.com/yureru/Patchy/master/img/projects/ExceptionsAsynchronousTask.png"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Eye.png"/></a>
 	Shows how to handle an exception that is raised in a asynchronous awaited method.
+
+## ValidateBirthDateCombobox <a href="https://github.com/yureru/Patchy/tree/master/source/ValidateBirthDateCombobox"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Sheet.png"/></a> <a href="https://raw.githubusercontent.com/yureru/Patchy/master/img/projects/ValidateBirthDateCombobox.png"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Eye.png"/></a>
+	A way to populate, and validate several Combobox which serves to pick a Birthdate.

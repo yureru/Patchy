@@ -1,0 +1,55 @@
+﻿<Window x:Class="ValidateBirthDateCombobox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ValidateBirthDateCombobox"
+        mc:Ignorable="d"
+        Title="Validate BirthDate" Height="350" Width="525"
+        
+        >
+    <Window.Resources>
+        <!-- Data template for error messages -->
+        <DataTemplate DataType="{x:Type ValidationError}">
+            <TextBlock
+                FontStyle="Italic"
+                Foreground="Red"
+                HorizontalAlignment="Center"
+                Margin="0,1"
+                Text="{Binding Path=ErrorContent}"
+                />
+        </DataTemplate>
+    </Window.Resources>
+    <!--DataContext="{Binding RelativeSource={RelativeSource Self}}"-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+            <ComboBox
+                Name="dayCombo"
+                Margin="0,0,10,0"
+                ItemsSource="{Binding Path=Days, Mode=OneTime}"
+                SelectedItem="{Binding Path=Day, ValidatesOnDataErrors=True}"
+                Validation.ErrorTemplate="{x:Null}"
+                />
+            <ComboBox 
+                Name="monthCombo"
+                Margin="0,0,10,0"
+                ItemsSource="{Binding Path=Months, Mode=OneTime}"
+                SelectedItem="{Binding Path=Month}"
+                />
+            <ComboBox
+                Name="yearCombo"
+                Margin="0,0,10,0"
+                ItemsSource="{Binding Path=Years, Mode=OneTime}"
+                SelectedItem="{Binding Path=Year}"
+                />
+        </StackPanel>
+        <ContentPresenter
+            Grid.Row="1"
+            Content="{Binding ElementName=dayCombo, Path=(Validation.Errors).CurrentItem}"
+            />
+    </Grid>
+</Window>
