@@ -3,6 +3,7 @@
 
 A place where I drop my algorithms, code snippets, and algorithms implementations.
 Basically it will serve as a playground and to review programming in the future.
+Click the ![](img/Sheet.png) icon to go to the project, and the ![](img/Eye.png) icon to watch a screenshot of the given project.
 
 ## Source
 
@@ -10,7 +11,7 @@ Every project is contained in a single file, or a folder. And they're enumerated
 
 ## FizzBuzz
 
-<a href="https://github.com/yureru/Patchy/blob/master/source/FizzBuzz.cs"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Sheet.png"/></a>
+<a href="https://github.com/yureru/Patchy/blob/master/source/FizzBuzz.cs"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Sheet.png"/></a> <a href="https://github.com/yureru/Patchy/blob/master/source/FizzBuzz.cs"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Eye.png"/></a>
 
 	My first attempt to write a FizzbBuzz, just for the memes.
 
