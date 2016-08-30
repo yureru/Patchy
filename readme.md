@@ -5,7 +5,7 @@ A place where I drop my algorithms, code snippets, and algorithms implementation
 Basically it will serve as a playground and to review programming in the future.
 
 ## Source <a href="https://github.com/yureru/Patchy/blob/master/source/FizzBuzz.cs">
-    <img src="![](img/Sheet.png) />
+    ![](img/Sheet.png)
   </a>
 Every project is contained in a single file, or a folder. And they're enumerated in the following list:
 
