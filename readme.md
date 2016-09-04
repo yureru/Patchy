@@ -22,9 +22,8 @@ Every project is contained in a single file, or a folder. And they're enumerated
 ## ExceptionsAsynchronousTask <a href="https://github.com/yureru/Patchy/tree/master/source/ExceptionsAsynchronousTask"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Sheet.png"/></a> <a href="https://raw.githubusercontent.com/yureru/Patchy/master/img/projects/ExceptionsAsynchronousTask.png"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Eye.png"/></a>
 	Shows how to handle an exception that is raised in a asynchronous awaited method.
 
-## DownloadFaviconAsync <a href="https://github.com/yureru/Patchy/tree/master/source/DownloadFaviconAsync"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Sheet.png"/></a> <a href="https://raw.githubusercontent.com/yureru/Patchy/master/img/projects/DownloadFaviconAsync.png"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Eye.png"/></a>
+## ValidateBirthDateCombobox <a href="https://github.com/yureru/Patchy/tree/master/source/ValidateBirthDateCombobox"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Sheet.png"/></a> <a href="https://raw.githubusercontent.com/yureru/Patchy/master/img/projects/ValidateBirthDateCombobox.png"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Eye.png"/></a>
 	A way to populate, and validate several Combobox which serves to pick a Birthdate.
 
-## ValidateBirthDateCombobox <a href="https://github.com/yureru/Patchy/tree/master/source/ValidateBirthDateCombobox"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Sheet.png"/></a> <a href="https://raw.githubusercontent.com/yureru/Patchy/master/img/projects/ValidateBirthDateCombobox.png"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Eye.png"/></a>
+## DownloadFaviconAsync <a href="https://github.com/yureru/Patchy/tree/master/source/DownloadFaviconAsync"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Sheet.png"/></a> <a href="https://raw.githubusercontent.com/yureru/Patchy/master/img/projects/DownloadFaviconAsync.png"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Eye.png"/></a>
 	Downloads a bunch of favicons in a way that is asynchronous and they're added to a Panel in the order they were requested.
-
