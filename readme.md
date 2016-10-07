@@ -27,3 +27,10 @@ Every project is contained in a single file, or a folder. And they're enumerated
 
 ## DownloadFaviconAsync <a href="https://github.com/yureru/Patchy/tree/master/source/DownloadFaviconAsync"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Sheet.png"/></a> <a href="https://raw.githubusercontent.com/yureru/Patchy/master/img/projects/DownloadFaviconAsync.png"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Eye.png"/></a>
 	Downloads a bunch of favicons in a way that is asynchronous and they're added to a Panel in the order they were requested.
+
+## GetDateService <a href="https://github.com/yureru/Patchy/tree/master/source/GetDateService"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Sheet.png"/></a> <a href="https://raw.githubusercontent.com/yureru/Patchy/master/img/projects/GetDateService.png"><img src="https://raw.githubusercontent.com/yureru/Patchy/master/img/Eye.png"/></a>
+	Simple WCF Service created to show the basic implementation of a SOA. It pulls the current date from the service.
+	The solution has the following projects:
+	- ConsumeDateClient (The client that uses the service)
+	- Date (The service)
+	- DateServiceSite (The hosted service, currently using IIS Express)
